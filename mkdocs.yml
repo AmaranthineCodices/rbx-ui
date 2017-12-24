@@ -1,0 +1,40 @@
+site_name: rbx-ui documentation
+site_url: http://amaranthinecodices.github.io/rbx-ui/
+repo_url: http://github.com/AmaranthineCodices/rbx-ui/
+edit_uri: blob/master/docs/
+
+pages:
+  - 'Introduction': 'index.md'
+  - 'Contributing': 'contributing.md'
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# rojo uses 8000 by default
+dev_addr: '127.0.0.1:8080'
+
+theme:
+  name: material
+  logo:
+    icon: book
+  palette:
+    primary: deep purple
+    accent: indigo
