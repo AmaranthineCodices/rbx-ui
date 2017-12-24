@@ -5,6 +5,10 @@
     "src": {
       "path": "src",
       "target": "ReplicatedStorage.UI"
+    },
+    "examples": {
+      "path": "examples",
+      "target": "StarterPlayer.StarterPlayerScripts"
     }
   }
 }
