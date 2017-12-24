@@ -33,6 +33,7 @@ function BarsSpinner:render()
             BorderSizePixel = 0,
             LayoutOrder = i,
             Size = UDim2.new(0, self.state.BarWidth, 0, self.state.BarHeight),
+            ZIndex = props.ZIndex
         }))
     end
 
